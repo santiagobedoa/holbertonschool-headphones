@@ -1,39 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage - headphones</title>
+    <title>Holberton Headphones</title>
     <meta
-      name="description"
-      content="We are headphones company, the best headphones company"
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-    <link rel="icon" type="image/png" href="images/favicon.png" />
-    <link rel="stylesheet" href="0-styles.css" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./0-styles.css" />
   </head>
   <body>
-    <!- Header ->
-    <header class="header">
-      <div class="header-container">
-        <div class="header-logo">
-          <img src="images/logo_headphones.png" alt="Headphones logo" />
+    <div class="page-container">
+      <!-- HEADER -->
+      <header>
+        <div class="logo-container">
+          <img
+            class="logo"
+            src="./images/logo_headphones.png"
+            alt="headphones logo"
+          />
         </div>
-        <nav class="navbar-menu">
-          <ul class="nav">
-            <li class="nav-item">
-              <a href="/" class="nav-link">what we do</a>
+        <div class="nav large-nav">
+          <ul>
+            <li>
+              <a href="#">what we do</a>
             </li>
-            <li class="nav-item">
-              <a href="/" class="nav-link">our results</a>
+            <li>
+              <a href="#">our results</a>
             </li>
-            <li class="nav-item">
-              <a href="/" class="nav-link">contact us</a>
+            <li>
+              <a href="#">contact us</a>
             </li>
           </ul>
-        </nav>
-      </div>
-    </header>
+        </div>
+      </header>
+      <!-- MAIN -->
+      <main>
+        <!-- HEADER SECTION -->
+        <section class="hero-section">
+          <input type="checkbox" id="small-icon-btn" />
+          <label class="small-icon-handler" for="small-icon-btn"></label>
+          <div class="nav small-nav">
+            <ul>
+              <li>
+                <a href="#">what we do</a>
+              </li>
+              <li>
+                <a href="#">our results</a>
+              </li>
+              <li>
+                <a href="#">contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="container hero-infos">
+            <div class="hero-title">Lorem ipsum dolor set amet lorem ipsum</div>
+            <div class="hero-subtitle">
+              Lorem ipsum dolor set amet lorem ipsum dolor set
+            </div>
+            <button class="btn hero-btn">CALL TO ACTION</button>
+            <div class="hero-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
