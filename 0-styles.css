@@ -40,7 +40,13 @@ header {
 .header-logo {
   justify-content: flex-start;
   margin-top: 3%;
-  margin-left: 200px;
+  margin-left: 12%;
+}
+
+.navbar-menu {
+  width: 25%;
+  margin-top: 3%;
+  margin-right: 12%;
 }
 
 .nav {
@@ -51,7 +57,7 @@ header {
   justify-content: flex-end;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav .nav-item {
