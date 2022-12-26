@@ -16,7 +16,7 @@ You will use all HTML/CSS/Accessibility/Responsive design knowledges that you le
 <h3>Tablet view:</h3>
 <p><img src="./images/01_headphones_tablet@2x.png"></p>
 
-<h3>Mobile view</h3>
+<h3>Mobile view:</h3>
 <p><img src="./images/01_headphones_mobile@2x.png"></p>
 
 <p>This webpage has been designed by Nicolas Philippot, UI/UX designer.

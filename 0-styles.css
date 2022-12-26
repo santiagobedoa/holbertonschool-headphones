@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+/* Variables
+  ============================= */
+:root {
+  --color-white: #ffffff;
+
+  /** NAVBAR **/
+  --nav-font-weight: 700;
+  --nav-font-size: 12px;
+  --nav-line-height: 15px;
+  --nav-font-color: var(--color-white);
+  --nav-font-family: "Source Sans Pro";
+}
+
+header {
+  /* sizing */
+  width: 100vw; /* relative to the viewport's width */
+  height: 100vh; /* relative to the viewport's height */
+
+  /* background style */
+  background-image: url("/images/headphones_hero_1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Navbar
+    ============================= */
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border-color: red;
+}
+
+.nav .nav-item {
+  color: var(--color-white);
+  height: var(--nav-font-weight);
+  font-size: var(--nav-font-size);
+  line-height: var(--nav-line-height);
+  border-color: red;
+}
