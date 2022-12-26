@@ -361,13 +361,13 @@ header {
   text-align: center;
 }
 
-.what-we-do-description {
+.section-description {
   font-size: var(--medium-text-font-size);
   margin: var(--desktop-section-description-margins);
   text-align: center;
 }
 
-.what-we-do-description p {
+.section-description p {
   max-width: 65rem;
   margin: 0 auto;
 }
@@ -400,4 +400,31 @@ header {
 .sample-description {
   font-size: var(--small-text-font-size);
   margin: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section-description {
+    margin: 5rem;
+  }
+
+  .section-samples {
+    justify-content: center;
+  }
+
+  .sample {
+    width: 40%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-samples {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-sample {
+    width: 70%;
+    max-width: 70%;
+  }
 }
