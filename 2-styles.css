@@ -428,3 +428,76 @@ header {
     max-width: 70%;
   }
 }
+
+/* RESULTS SECTION */
+
+.results-section {
+  color: var(--white-color);
+  padding: 1px 0;
+  background-image: url("./images/headphones_hero_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-pentagon-container {
+  height: 16rem;
+  position: relative;
+}
+
+.section-pentagon-container img {
+  height: inherit;
+  width: inherit;
+}
+
+.pentagon-title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.pentagon-description {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  font-size: 13px;
+  font-weight: 600;
+  transform: translate(-50%, 0);
+  width: 100%;
+}
+
+/* Results Section tablet UI layout (large screen) */
+@media screen and (max-width: 768px) {
+  .pentagon-samples {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: var(--max-width);
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+  }
+
+  .section-sample {
+    min-width: 50%;
+  }
+}
+
+/* Results Section tablet UI layout (small screen) */
+@media screen and (max-width: 620px) {
+  .pentagon-samples {
+    width: 90%;
+  }
+}
+
+/* Results Section mobile UI layout */
+@media screen and (max-width: 480px) {
+  .pentagon-samples {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
