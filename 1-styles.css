@@ -246,8 +246,8 @@ header {
   .small-icon-handler {
     display: block;
     position: absolute;
-    top: 7rem;
-    left: 1.5rem;
+    top: 5.5rem;
+    left: 1.8rem;
     height: 3px;
     width: 1.5rem;
     background-color: var(--white-color);
