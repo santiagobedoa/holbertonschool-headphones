@@ -469,11 +469,17 @@ header {
 .section-pentagon-container {
   height: 16rem;
   position: relative;
+  transition: opacity 1s, rotate 1s;
 }
 
 .section-pentagon-container img {
   height: inherit;
   width: inherit;
+}
+
+.section-pentagon-container:hover {
+  opacity: 0.3;
+  rotate: 360deg;
 }
 
 .pentagon-title {
